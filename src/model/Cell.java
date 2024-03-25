@@ -16,10 +16,10 @@ public class Cell {
     }
 
     public void displayCell(){
-        if(player==null){
-            System.out.println("| |");
+        if(player == null){
+            System.out.print("| |");
         }else{
-            System.out.println("|" +player.getSymbol() + "|");
+            System.out.print("|" + player.getSymbol() + "|");
         }
     }
 
@@ -35,7 +35,7 @@ public class Cell {
         return column;
     }
 
-    public void setColumn(int column) {
+    public void setColumn(int col) {
         this.column = column;
     }
 

@@ -1,6 +1,6 @@
 package service.winningStrategy;
 
-public enum WinningStrategyNames {
+public enum WinningStrategyName {
     ORDERONEWINNINGSTRATEGY;
 
 }
